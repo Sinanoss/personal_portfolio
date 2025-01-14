@@ -1,0 +1,52 @@
+*{margin: 0;
+padding: 0;}
+
+.nav{ background-color: tomato; color: beige; height:  70px; width: 100%; margin-left: 0px; margin-top: 10px;
+    font-family: system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-style: inherit; font-weight: 500;
+     }
+     .fst{display: flex; align-items: center; margin-left: 25px;}
+     .scnd{display: flex;align-items: center; margin-left: 250px;}
+
+.bodyig img{ position: absolute;right: 0%; }
+.bodytxt{
+    margin-top: 150px; margin-left: 20px;
+}
+.bodytxt h1::first-line{
+    color: tomato;
+}
+p{font-weight: 350; margin-top: 10px;}
+.bodytxt p::first-letter{font-weight: bold; text-align: justify;
+
+}
+.bodytxt button{
+  background-color:tomato; padding: 5px;
+  border-width: 0;
+}
+.bodytxt button:hover{width: 100px;width: 100px;background-color: rgb(216, 52, 23); color: bisque;}
+.scnd li:hover{font-size: 20px;}
+
+.bodyabout h1 {margin-top: 305px; margin-left: 20px;}
+.okok {margin-top: 25px; margin-left: 20px; background-color: tomato;}
+.bodyabout p{margin-left: 70px; padding: 10px; margin-top: 100px;}
+.bodyabout {
+    width: 100%;
+}
+
+
+.skills{margin-left: 170px; margin-top: 30px;}
+.js{width: 100px ; height: 100px; }
+.css{ width: 140px ; height: 100px; margin-left: 270px;}
+.html{width: 100px; height:100px;}
+
+
+.contact{ margin-top: 100px; background-color: tomato; width: 400px; height:320px ;
+     margin-left: 470px; padding: 30px; padding-left: 95px;
+     font-family: system-ui, '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-weight: 600;}
+     .but{width:50px; background-color:blue;}
+     .but:hover{background-color:tomato;}
+     a{text-decoration: none; color: white;}
+     .yes{width: 400px; height: 400px; margin-bottom: 60px; margin-left: 2
+    6020px;margin-top: 30px;}
